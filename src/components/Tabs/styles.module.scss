@@ -1,0 +1,28 @@
+.tabs {
+  padding: 0.5rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 6px;
+  display: flex;
+}
+
+.tab {
+  height: 2rem;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  color: var(--purple-500);
+  border-radius: 5px;
+  border: 0;
+
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+
+  &.active {
+    background-color: var(--purple-500);
+    color: var(--white);
+  }
+}

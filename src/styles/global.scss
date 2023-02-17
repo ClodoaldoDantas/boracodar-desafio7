@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --orange-500: #e45858;
+  --purple-500: #6246ea;
+
+  --black-900: #121214;
+  --black-800: rgba(0, 0, 0, 0.75);
+
+  --gray-500: #7c7c8a;
+  --gray-400: #eaeaea;
+  --gray-300: #f4f4ff;
+  --gray-200: #f8f8ff;
+  --gray-100: #fffffe;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+body,
+input,
+select,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+body {
+  background-color: var(--gray-100);
+  color: var(--black-800);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: var(--black-900);
+}

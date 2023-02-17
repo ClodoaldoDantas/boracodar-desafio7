@@ -1,0 +1,37 @@
+.eventsContainer {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6.25rem 1rem;
+
+  @media only screen and (max-width: 900px) {
+    padding: 4rem 1rem;
+  }
+}
+
+.eventsHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.eventsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2.5rem 0;
+
+  @media only screen and (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
