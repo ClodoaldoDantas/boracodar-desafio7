@@ -20,9 +20,16 @@ export function Search() {
 
   const { searchEvents } = useEvents()
 
-  function handleSearch(event: FormEvent) {
+  function scrollToList() {
+    const mainElement = document.getElementById('main-content')
+    mainElement?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  async function handleSearch(event: FormEvent) {
     event.preventDefault()
-    searchEvents(name, city)
+
+    await searchEvents(name, city)
+    scrollToList()
   }
 
   return (
