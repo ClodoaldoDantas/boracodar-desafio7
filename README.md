@@ -1,7 +1,5 @@
 ## 🧑‍🚀 Bora Codar Desafio 07
 
-[![Author](https://img.shields.io/badge/author-ClodoaldoDantas-e45858)](https://github.com/ClodoaldoDantas)
-
 ## 💻 Projeto
 
 O projeto corresponde a um site para encontrar seu bloco no carnaval.
